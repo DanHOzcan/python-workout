@@ -10,4 +10,4 @@ and after digits following the decimal point.
 """
     s = str(f)
     i = s.index('.')
-    return s[i-before:i+after+1]
+    return float(s[i-before:i+after+1])
